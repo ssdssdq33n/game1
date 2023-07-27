@@ -5,7 +5,6 @@ function run(){
     let img=document.querySelector('.img')
     let randomX=Math.round(getRandomArbitrary(70,w))
     let randomY=Math.round(getRandomArbitrary(70,h))
-    console.log(progress.value)
     if(progress.value<=9){
         img.style.top=randomY+'px'
         img.style.left=randomX+'px'
